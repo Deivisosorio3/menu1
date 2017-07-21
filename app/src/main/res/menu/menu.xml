@@ -16,5 +16,24 @@
         android:icon="@android:drawable/ic_menu_share"
         android:title="Compartir"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/opt_sub_menu"
+        android:title="Submenu">
+        <menu>
+            <item
+                android:id="@+id/opt_menu1"
+            android:title="menu1"/>
+            <item
+                android:id="@+id/opt_sub_menu1"
+                android:title="Submenu1"/>
+            <item
+                android:id="@+id/opt_sub_menu2"
+                android:title="Submenu2"/>
+
+        </menu>
+
+
+    </item>
+
 
 </menu>
