@@ -12,25 +12,26 @@
             android:title="reproductor" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:icon="@mipmap/mensaje"
+            android:title="mensaje" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:icon="@mipmap/guardar"
+            android:title="camara" />
     </group>
 
-    <item android:title="Communicate">
+    <item
+        android:id="@+id/nav_share"
+        android:title="Communicate"
+        android:icon="@mipmap/icono">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
+
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:icon="@mipmap/google"
+                android:title="google" />
         </menu>
+
     </item>
 
 </menu>
