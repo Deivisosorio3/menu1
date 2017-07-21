@@ -22,13 +22,16 @@
         <menu>
             <item
                 android:id="@+id/opt_menu1"
-            android:title="menu1"/>
+                android:icon="@android:drawable/star_big_on"
+                android:title="menu1" />
             <item
                 android:id="@+id/opt_sub_menu1"
-                android:title="Submenu1"/>
+                android:title="Submenu1"
+                android:icon="@android:drawable/star_big_on"/>
             <item
                 android:id="@+id/opt_sub_menu2"
-                android:title="Submenu2"/>
+                android:title="Submenu2"
+                android:icon="@android:drawable/star_big_on"/>
 
         </menu>
 
